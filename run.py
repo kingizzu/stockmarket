@@ -12,6 +12,7 @@ import torch
 import yfinance as yf
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
+import torch.nn as nn
 
 # Streamlit App Title
 st.title("Stock Sentiment Analysis & Prediction")
